@@ -5,7 +5,7 @@ import { Fragment } from "react"
 import { Dialog, Transition } from "@headlessui/react"
 
 import { CarProps } from "@/types"
-import { generateCarImageUrl } from "@/utils"
+// import { generateCarImageUrl } from "@/utils"
 
 interface CarDetailsProps {
 	isOpen: boolean
@@ -65,6 +65,7 @@ const CarDetails = ({ isOpen, closeModel, car }: CarDetailsProps) => {
 												alt="car model"
 												fill
 												priority
+												sizes="99vw"
 												className="object-contain"
 											/>
 										</div>
@@ -79,6 +80,7 @@ const CarDetails = ({ isOpen, closeModel, car }: CarDetailsProps) => {
 													alt="car model"
 													fill
 													priority
+													sizes="99vw"
 													className="object-contain"
 												/>
 											</div>
@@ -92,6 +94,7 @@ const CarDetails = ({ isOpen, closeModel, car }: CarDetailsProps) => {
 													alt="car model"
 													fill
 													priority
+													sizes="99vw"
 													className="object-contain"
 												/>
 											</div>
@@ -105,6 +108,7 @@ const CarDetails = ({ isOpen, closeModel, car }: CarDetailsProps) => {
 													alt="car model"
 													fill
 													priority
+													sizes="99vw"
 													className="object-contain"
 												/>
 											</div>

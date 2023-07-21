@@ -10,6 +10,7 @@ import CarDetails from "./CarDetails"
 
 interface CarCardProps {
 	car: CarProps
+	key: number | undefined
 }
 
 const CarCard = ({ car }: CarCardProps) => {
@@ -39,6 +40,7 @@ const CarCard = ({ car }: CarCardProps) => {
 					alt="car model"
 					fill
 					priority
+					sizes="99vw"
 					className="object-contain"
 				/>
 			</div>
