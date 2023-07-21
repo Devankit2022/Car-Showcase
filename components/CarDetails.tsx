@@ -65,6 +65,7 @@ const CarDetails = ({ isOpen, closeModel, car }: CarDetailsProps) => {
 												alt="car model"
 												fill
 												priority
+												sizes="99vw"
 												className="object-contain"
 											/>
 										</div>
@@ -79,6 +80,7 @@ const CarDetails = ({ isOpen, closeModel, car }: CarDetailsProps) => {
 													alt="car model"
 													fill
 													priority
+													sizes="99vw"
 													className="object-contain"
 												/>
 											</div>
@@ -92,6 +94,7 @@ const CarDetails = ({ isOpen, closeModel, car }: CarDetailsProps) => {
 													alt="car model"
 													fill
 													priority
+													sizes="99vw"
 													className="object-contain"
 												/>
 											</div>
@@ -105,6 +108,7 @@ const CarDetails = ({ isOpen, closeModel, car }: CarDetailsProps) => {
 													alt="car model"
 													fill
 													priority
+													sizes="99vw"
 													className="object-contain"
 												/>
 											</div>
